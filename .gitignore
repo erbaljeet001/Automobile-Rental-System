@@ -1,0 +1,20 @@
+# Ignore XAMPP and local environment files
+*.log
+*.env
+vendor/
+node_modules/
+.DS_Store
+*.sql
+*.sqlite
+*.sqlite3
+
+# Ignore OS files
+Thumbs.db
+*.tmp
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore database connection backups or credentials
+connection.php
