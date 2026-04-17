@@ -12,6 +12,7 @@ $result=mysqli_fetch_array($query);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Bookings</title>
     <link rel="stylesheet" href="mybookings.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <h1>My Bookings</h1>

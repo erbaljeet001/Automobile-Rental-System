@@ -99,7 +99,7 @@ $con = mysqli_connect($host, $user, $pass, $db);
 
 ## Author
 
-- **BALJEET KUMAR YADAV
+- \*\*BALJEET KUMAR YADAV
 
 ---
 

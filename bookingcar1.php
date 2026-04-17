@@ -21,7 +21,8 @@ if($submit == 'Confirm Booking' && $start_date && $end_date) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Model 1 - Booking</title>
     <link rel="stylesheet" href="booking.css">
-    <style>
+    <script src="script.js" defer></script>
+</head>
         body { font-family: Arial, sans-serif; background-color: #f5f5f5; }
         .booking-form { max-width: 500px; margin: 50px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         .form-group { margin: 15px 0; }
@@ -65,24 +66,32 @@ if($submit == 'Confirm Booking' && $start_date && $end_date) {
     <div class="booking-form">
         <h2>Car Model 1 - Booking</h2>
         <p><strong>Daily Rate:</strong> 1000 Rs/day | <strong>Number Plate:</strong> CAR-001</p>
-        
+
         <form method="POST">
             <div class="form-group">
                 <label for="start_date">Pickup Date *</label>
                 <input type="date" id="start_date" name="start_date" required>
             </div>
-            
+
             <div class="form-group">
                 <label for="end_date">Drop-off Date *</label>
                 <input type="date" id="end_date" name="end_date" required>
             </div>
-            
+
             <div class="form-group">
                 <label>Car Type:</label>
-                <label><input type="radio" name="car_type" value="with_ac" checked> With AC</label>
-                <label><input type="radio" name="car_type" value="without_ac"> Without AC</label>
+                <div class="car-type-options">
+                    <div class="car-type-option">
+                        <input type="radio" id="with_ac" name="car_type" value="with_ac" checked>
+                        <label for="with_ac">With AC</label>
+                    </div>
+                    <div class="car-type-option">
+                        <input type="radio" id="without_ac" name="car_type" value="without_ac">
+                        <label for="without_ac">Without AC</label>
+                    </div>
+                </div>
             </div>
-            
+
             <div class="form-group">
                 <button type="submit" name="submit" value="Confirm Booking">Confirm Booking</button>
             </div>

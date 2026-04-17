@@ -21,6 +21,7 @@ if($submit == 'Confirm Booking' && $start_date && $end_date) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Model 2 - Booking</title>
     <link rel="stylesheet" href="booking.css">
+    <script src="script.js" defer></script>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f5f5f5; }
         .booking-form { max-width: 500px; margin: 50px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
