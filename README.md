@@ -97,7 +97,7 @@ $con = mysqli_connect($host, $user, $pass, $db);
 - Update `connection.php` if your MySQL credentials differ.
 - Do not commit database credentials or production secrets.
 
-## Auther
+## Author
 
 - **BALJEET KUMAR YADAV
 
