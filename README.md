@@ -27,15 +27,15 @@ A clean and user-friendly PHP web application built for automobile rental bookin
 
 ### Car Listings
 
-![Car Listings](screenshots/cars.png)
+![Car Listings](screenshots/car_bike_list.png)
 
 ### Bike Listings
 
-![Bike Listings](screenshots/bikes.png)
+![Bike Listings](screenshots/car_bike_list.png)
 
 ### Booking Confirmation
 
-![Booking Confirmation](screenshots/booking.png)
+![Booking Confirmation](screenshots/booking_confirm.png)
 
 ### My Bookings
 
