@@ -14,24 +14,31 @@ A clean and user-friendly PHP web application built for automobile rental bookin
 ## Screenshots
 
 ### Home Page
+
 ![Home Page](screenshots/homepage.png)
 
 ### Signup Page
+
 ![Signup Page](screenshots/signup.png)
 
 ### Login Page
+
 ![Login Page](screenshots/login.png)
 
 ### Car Listings
+
 ![Car Listings](screenshots/cars.png)
 
 ### Bike Listings
+
 ![Bike Listings](screenshots/bikes.png)
 
 ### Booking Confirmation
+
 ![Booking Confirmation](screenshots/booking.png)
 
 ### My Bookings
+
 ![My Bookings](screenshots/mybookings.png)
 
 ## Pages Included
