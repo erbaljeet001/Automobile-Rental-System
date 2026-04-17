@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    background-image: url('images/background1.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(35, 34, 34, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+}
+
+h1 {
+    color: #9f9f9f;
+}
+
+p {
+    color: #9f9c9c;
+    line-height: 1.6;
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.booking {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #007bff;
+}
+
+p {
+    color: #555;
+}
