@@ -11,7 +11,41 @@ A clean and user-friendly PHP web application built for automobile rental bookin
 - ✅ Database integration using MySQL
 - ✅ Contact section with real company details
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/homepage.png)
+
+### Signup Page
+![Signup Page](screenshots/signup.png)
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Car Listings
+![Car Listings](screenshots/cars.png)
+
+### Bike Listings
+![Bike Listings](screenshots/bikes.png)
+
+### Booking Confirmation
+![Booking Confirmation](screenshots/booking.png)
+
+### My Bookings
+![My Bookings](screenshots/mybookings.png)
+
 ## Pages Included
+
+- `index.php` - Public homepage
+- `signup.php` - User registration
+- `login.php` - User login
+- `indexlogin.php` - Logged-in dashboard
+- `car1.php`, `car2.php`, `car3.php` - Car rental pages
+- `bike1.php`, `bike2.php`, `bike3.php` - Bike rental pages
+- `bookingcar1.php`, `bookingcar2.php`, `bookingcar3.php` - Car booking confirmation pages
+- `bookingbike1.php`, `bookingbike2.php`, `bookingbike3.php` - Bike booking confirmation pages
+- `mybookings.php` - Booking history page
+- `aboutus.php` - About us page
 
 - `index.php` - Public homepage
 - `signup.php` - User registration
