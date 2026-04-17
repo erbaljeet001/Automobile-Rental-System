@@ -58,9 +58,8 @@ $con = mysqli_connect($host, $user, $pass, $db);
 
 ## Contact
 
-- **Email:** info@AutomatedRentalSystem.com
-- **Phone:** 620600XXXX
-- **Address:** Sector 7, Noida, India
+- **Email:** baljeetydv0001@gmail.com
+- **Phone:** 6206007224
 
 ---
 
